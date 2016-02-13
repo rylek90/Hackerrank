@@ -2,7 +2,8 @@ using System;
 
 namespace Hackerrank
 {
-    public class Program
+    //https://www.hackerrank.com/challenges/2d-array
+    public class TwoDimensionalArray
     {
         private static int SumOfHourglass(int[][] arr, int i, int j)
         {
