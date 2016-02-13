@@ -3,7 +3,8 @@ using System.Linq;
 
 namespace Hackerrank
 {
-    internal static class Extensions{
+    // https://www.hackerrank.com/challenges/pangrams
+    internal static class PangramsExtensions{
         
         private static string _alphabet = "thequickbrownfoxjumpsoverthelazydog";
         
@@ -11,7 +12,7 @@ namespace Hackerrank
             return _alphabet.All(str.ToLower().Contains);
         }
     }
-    public class Program
+    public class Pangrams
     {
         static void Main(string[] args)
         {
