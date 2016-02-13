@@ -3,7 +3,8 @@ using System.Collections.Generic;
 
 namespace Hackerrank
 {
-    public class Program
+    // https://www.hackerrank.com/challenges/dynamic-array
+    public class DynamicArrays
     {
         public static void Main(string[] args)
         {
