@@ -19,7 +19,7 @@ namespace Hackerrank
             return true;
         }
     }
-    public class Program
+    public class FunnyStrings
     {
         private const string Funny = "Funny";
         private const string NotFunny = "Not Funny";
