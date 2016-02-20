@@ -3,7 +3,7 @@ using System;
 namespace Hackerrank
 {
     //https://www.hackerrank.com/challenges/the-time-in-words/
-    public class Program
+    public class TheTimeInWords
     {
         static string[] onesWords = new[] { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen" };
         static string[] tensWords = new[] { "zero", "ten", "twenty" };
