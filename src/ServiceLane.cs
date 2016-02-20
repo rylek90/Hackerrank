@@ -13,7 +13,7 @@ namespace Hackerrank
             var freewayLength = int.Parse(tmpArray[0]);
             var testCases = int.Parse(tmpArray[1]);
             tmpArray = Console.ReadLine().Split(' ');
-            List<int> freewayWidths = Array.ConvertAll(tmpArray, Int32.Parse).ToList();
+            var freewayWidths = tmpArray.Select(int.Parse).ToList();
             
             for (int i = 0; i < testCases; i++)
             {

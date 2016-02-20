@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 
 namespace Hackerrank
 {
@@ -18,7 +19,7 @@ namespace Hackerrank
             for (int i = 0; i < 6; i+=1)
             {
                 string[] arrStr = Console.ReadLine().Split(' ');
-                arr[i] = Array.ConvertAll(arrStr, int.Parse);
+                arr[i] = arrStr.Select(int.Parse).ToArray();
             }
             
             for (var i = 0; i < 4; i += 1) {
